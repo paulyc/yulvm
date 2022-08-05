@@ -22,7 +22,9 @@ object "YulVM" {
 			}
 			*/
 			switch shr(0xe0, calldataload(0))
-			case 0x89d5e154 { // function executeBytecode(bytes calldata _bytecode) public {}
+			// Executes calldata in the context of this contract
+			// function executeBytecode(bytes calldata _bytecode) public {}
+			case 0x89d5e154 {
 				//let pcoffset := 4
 				//let freememp := 0x40
 				//let bp := 0x60 // stack base pointer
