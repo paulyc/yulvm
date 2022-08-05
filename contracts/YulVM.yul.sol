@@ -1,1 +1,1 @@
-contracts/YulVM.yul
+YulVM.yul
